@@ -70,7 +70,7 @@ function sendTextMessage(sender, text) {
         text:text
     }
     request({
-        url: 'https://graph.facebook.com/v2.6/me/...',
+        url: 'https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EAAKD6bTrZARUBAJgrctxrQGm2V3kzhFvhin0zBaSZAIWCiIJVo0w4GadlSojUKldnWqkHdWExKxPDirfhLUJH0BBnZAG0XzucZBXDfTZBmBT4ksNk0yf8szaITopNf9zf041LRQcQ43dOykZBZBJWURoFC9UKVH0A1nHlMZBFHKJrgZDZD',
         qs: {access_token:token},
         method: 'POST',
         json: {
