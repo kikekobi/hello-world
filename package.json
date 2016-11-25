@@ -1,0 +1,27 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikekobi/hello-world.git"
+  },
+  "keywords": [
+    "kikekobi"
+  ],
+  "author": "kikekobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikekobi/hello-world/issues"
+  },
+  "homepage": "https://github.com/kikekobi/hello-world#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
+}
